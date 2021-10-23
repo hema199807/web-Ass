@@ -1,0 +1,235 @@
+#top-bar{
+  width:70%;
+  padding:2px 50px 2px 30px;
+  background-color: white;
+  box-shadow: 0px 1px 5px #ccc;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left:204px;
+}
+.mob-lapicon{
+  margin-left: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 3px grey;
+  width: 23px;
+  height: 20px;
+  border-radius: 12px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px; 
+}
+#main{
+  display: flex;
+  width:100%;
+  height: 100vh;
+}
+#left-side-menu{
+  width: 204px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 5px;
+}
+#content{
+  width:70%;
+  height: 95%;
+  background-color:aliceblue;
+  box-shadow: 0px 0px 5px grey;
+  padding: 100px 30px 30px 30px;
+  box-sizing: border-box;
+  display: flex;
+}
+#event-settings{
+  width:250px;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+#fea-div{
+  background-color:rgb(240, 235, 235);
+  padding:1px 0 1px 20px;
+  border-left: 5px solid rgb(92, 62, 193);
+}
+#qun-ans{
+  width: 690px;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #ccc;
+  margin-left: -44px;
+  overflow: auto;
+}
+.vote{
+  margin-top:5px;
+  margin-bottom:20px;
+  font-size:14px;
+  font-weight:600;
+  color:rgb(92, 62, 193);
+  border:1px solid rgb(92, 62, 193);
+  border-radius: 5px;
+  padding: 3px 20px;
+}
+#M-v{
+  margin-top:5px;
+  margin-bottom:20px;
+  font-size:14px;
+  font-weight:600;
+  color:white;
+  background-color: rgb(92, 62, 193);
+  border:1px solid rgb(92, 62, 193);
+  border-radius: 5px;
+  padding: 3px 20px;
+}
+#btn-save{
+  float: right;
+  margin-right: 20px;
+  padding:10px 35px;
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  color: white;
+  background-color: rgb(92, 62, 193);
+}
+#right-side-menu{
+  width: 206px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 140px;
+  padding-top: 35px;
+}
+#web-logo{
+  width:75px;
+  height: 71px;
+}
+#side-teams{
+  color:rgb(92, 62, 193);
+  text-align:center;
+  border: 1px solid;
+  width: 53px;
+  height: 40px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px grey;
+}
+#analytics{
+  width:20px;
+  height: 20px;
+  text-align:center;
+}
+#user-logo{
+  background-color: black;
+  width:30px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+#active{
+  background-color: rgb(92, 62, 193);
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 56px;
+  right: 178px;
+}
+#notifications{
+  background-color: gray;
+  width:20px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 21px;
+  margin-bottom: 50px;
+}
+#settings{
+  background-color: gray;
+  width:20px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 21px;
+  text-align: center;
+}
+#active-notification{
+  background-color: limegreen;
+  width: 13px;
+  height: 13px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  left: 13px;
+  bottom: 13px;
+  text-align: center; 
+}
+#active-msg{
+  background-color: limegreen;
+  width: 13px;
+  height: 13px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  left: 13px;
+  bottom: 13px;
+  text-align: center;
+}
+.noti-value{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 4px;
+}
+#main-content-qun{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.toggle-on{
+  background-color: limegreen;
+  margin-right: 20px;
+  width: 26px;
+  height: 13px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.dot-toggle{
+  width: 8px;
+  height: 9px;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-left: 14px;
+}
+.toggle-off{
+  background-color: gray;
+  margin-right: 20px;
+  width: 26px;
+  height: 13px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.dot-toggle-off{
+  width: 8px;
+  height: 9px;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-left: 3px;
+}
